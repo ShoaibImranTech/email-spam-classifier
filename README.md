@@ -1,10 +1,5 @@
 # 📧 Email Spam Classifier — Multi-Model ML Comparison
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.1%2B-orange?logo=scikitlearn)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-
 A comprehensive **Email Spam Detection** project that benchmarks **7 machine learning classifiers** on the Kaggle Email Spam dataset. Starting from a Naive Bayes baseline, this project systematically compares classical ML algorithms using standardized text vectorization and evaluation metrics.
 
 ---
@@ -32,12 +27,6 @@ email-spam-classifier/
 │
 ├── data/
 │   └── combined_data.csv          # Kaggle dataset (add manually — see below)
-│
-├── results/
-│   ├── eda_plots.png              # Class distribution & email length charts
-│   ├── confusion_matrices.png     # Confusion matrix grid for all models
-│   ├── model_comparison.png       # Accuracy & F1 bar chart
-│   └── model_comparison_results.csv  # Tabular summary of all model scores
 │
 ├── src/
 │   └── predict.py                 # Standalone prediction script
@@ -197,6 +186,3 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 **Muhammad Shoaib**  
 BS Computer Science — University of the Punjab, Lahore  
-AI/ML & Full-Stack Developer  
-
-> ⭐ If you found this project helpful, please give it a star!
