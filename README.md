@@ -131,17 +131,6 @@ Two feature extraction strategies are applied:
 
 ---
 
-## 📈 Visual Outputs
-
-After running the notebook, the following charts are saved to `results/`:
-
-| File | Description |
-|------|-------------|
-| `eda_plots.png` | Class distribution + email length histogram |
-| `confusion_matrices.png` | Grid of confusion matrices for all 7 models |
-| `model_comparison.png` | Grouped bar chart — Accuracy vs F1 Score per model |
-| `model_comparison_results.csv` | Ranked table of all model scores |
-
 ---
 
 ## 🧪 Predict on Custom Text
